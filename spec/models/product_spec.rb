@@ -5,6 +5,7 @@ RSpec.describe Product, type: :model do
 
   describe 'Validations' do
     before(:each) do
+      # Use @category or @product (instance variables) when you need to share the variable across multiple examples within the same context.
       @category = Category.create(name: 'Electronics')
       @product = Product.new(
         name: 'Laptop',
