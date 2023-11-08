@@ -29,3 +29,7 @@ More information in their docs: <https://stripe.com/docs/testing#cards>
 - Bootstrap 5
 - PostgreSQL 9.x
 - Stripe
+
+## Test
+- On one terminal, run the server in test mode -  `bin/rails s -b 0.0.0.0 -e test`
+- On another terminal - run - `bin/rails cypress:open`
